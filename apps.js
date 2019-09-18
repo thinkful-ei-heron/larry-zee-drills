@@ -1,5 +1,6 @@
 /* eslint-disable no-console */
 'use strict';
+
 //object drills
 //object initializers and methods
 let loaf = {
@@ -39,4 +40,18 @@ let obj = {
 };
 console.log(obj.meals[3]);
 
-//arrays of object drill 2
+//Arrays of Objects Drill 2
+let peopleJobs = [{'John Mays': 'plumber'},
+  {'Derrick Eye': 'electrician'},
+  {'Marvin Johnson': 'surveyor'},
+  {'Colleen Jones': 'receptionist'},
+  {'Maddie Marvin': 'owner'}];
+
+peopleJobs.forEach(function(person) {
+  console.log(`Name is ${Object.keys(person)[0]}, job title is\
+ ${person[Object.keys(person)[0]]}.`);
+});
+
+
+
+
