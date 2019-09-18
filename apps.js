@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 'use strict';
 //object drills
 //object initializers and methods
@@ -11,4 +12,31 @@ let loaf = {
 console.log(`float${loaf.flour}: ${loaf.water}`);
 console.log(loaf.hydration());
 
-//iterating over an objects properties drill
+//Iterating Over and Object's Properties
+let myObj = {
+  foo: 'goo',
+  bar: 'car',
+  fum: 'gum',
+  quux: 'wuux',
+  spam: 'ttam'
+};
+
+for (let x in myObj) {
+  console.log(`Name is ${x}, Value is ${myObj[x]}.`);
+}
+
+//arrays in objects
+let obj = {
+  meals: [
+    'breakfast',
+    'second breakfast',
+    'elevenses',
+    'lunch',
+    'afternoon tea',
+    'dinner',
+    'supper'
+  ]
+};
+console.log(obj.meals[3]);
+
+//arrays of object drill 2
