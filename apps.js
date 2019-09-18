@@ -10,3 +10,5 @@ let loaf = {
 };
 console.log(`float${loaf.flour}: ${loaf.water}`);
 console.log(loaf.hydration());
+
+//iterating over an objects properties drill
