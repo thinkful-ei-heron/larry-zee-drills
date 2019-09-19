@@ -52,6 +52,16 @@ peopleJobs.forEach(function(person) {
  ${person[Object.keys(person)[0]]}.`);
 });
 
+//Properties that aren't there
+peopleJobs = [{'John Mays': 'plumber'},
+  {'Derrick Eye': 'electrician'},
+  {'Marvin Johnson': 'surveyor'},
+  {'Colleen Jones': 'receptionist'},
+  {'Maddie Marvin': 'owner'}];
 
+peopleJobs.forEach(function(person) {
+  console.log(`Name is ${Object.keys(person)[0]}, job title is\
+ ${person[Object.keys(person)[0]]}.`);
+});
 
 
